@@ -5,10 +5,9 @@ const demoSheetURL = 'https://docs.google.com/spreadsheets/d/1_IpENDkoujmWr-B0M2
 
 // test sheet id, Sheets API key, and valid auth scope
 const demoSheetId = '1_IpENDkoujmWr-B0M2ZVcyvgPQGeKwYxfHX_JYTDtRc';
-const apiKey = process.env.SHEETS_API_KEY;
 
 const options = {
-  apiKey: apiKey,  
+  apiKey: 'AIzaSyClZYXNC4UK61PrRm6F2UYgLAwej6Ypuro',  
   sheetId: demoSheetId,
   sheetNumber: 1,
   returnAllResults: false,
